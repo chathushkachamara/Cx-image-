@@ -1,0 +1,89 @@
+/* RESET */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+}
+
+/* UTILITIES */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 4rem 0;
+}
+
+.section { padding: 3.5rem 0; }
+.bg-dark { background: #111; color: #fff; }
+
+/* HERO */
+.hero {
+  background: #ffe81d; /* Nano Banana yellow */
+  text-align: center;
+  padding: 6rem 0 5rem;
+}
+.logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.tagline {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.tagline span { font-weight: 600; }
+
+/* CTA */
+.cta {
+  display: inline-block;
+  background: #111;
+  color: #ffe81d;
+  padding: .9rem 2.2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .25s;
+}
+.cta:hover { background: #000; }
+
+/* FEATURES */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+.grid li {
+  background: #f7f7f7;
+  padding: 1.2rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* PROMPT */
+.prompt-box {
+  display: block;
+  background: #222;
+  color: #ffe81d;
+  padding: 1.5rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  font-size: .95rem;
+  margin-top: 1.5rem;
+}
+
+/* CTA SECTION */
+.cta-section { text-align: center; }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: .85rem;
+  color: #666;
+}
